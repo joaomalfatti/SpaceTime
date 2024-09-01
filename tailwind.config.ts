@@ -54,6 +54,9 @@ const config: Config = {
       blur: {
         full: '194px',
       },
+      fontSize: {
+        '5xl': '2.5rem',
+      },
       /*Esses dois background e para fazer stripes da página.*/
       backgroundImage: {
         stripes: 'linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 12.5%, transparent 12.5%, transparent)'
