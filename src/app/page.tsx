@@ -1,4 +1,5 @@
 import { User } from 'lucide-react';
+import Image from 'next/image';
 
 import nlwLogo from '../assets/nlw-spacetime-logo.svg';
 
@@ -27,7 +28,7 @@ export default function Home() {
 
         {/* Hero */}
         <div>
-
+          <Image src={nlwLogo} alt="NLW SpaceTime" />
         </div>
 
       </div>
